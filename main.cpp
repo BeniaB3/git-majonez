@@ -1,4 +1,4 @@
 #include <iostream>
 auto main () -> int {
-std::cout << "Goodbye Coders School";
+std::cout << "Hello Coders School";
 }
