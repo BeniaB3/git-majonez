@@ -1,0 +1,32 @@
+mkdir git-majonez
+cd git-majonez
+git init
+touch main.cpp
+nano main.cpp
+git add main.cpp
+git commit -m "Initial commit"
+nano main.cpp
+git add main.cpp
+git add main.cpp
+git commit -m "Farewell changed"
+git remote add origin https://github.com/BeniaB3/git-majonez.git
+git push -u origin master
+git branch cs
+git checkout cs
+git reset --hard HEAD~1
+git checkout cs
+nano main.cpp
+git add main.cpp
+git commit -m "Greetings"
+git push origin cs
+git checkout master
+git merge cs
+cat main.cpp
+nano main.cpp
+git merge cs
+ git add main.cpp
+git merge cs
+git commit -m "merging"
+git merge cs
+touch history.txt
+
