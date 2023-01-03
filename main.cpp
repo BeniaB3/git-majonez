@@ -1,5 +1,5 @@
 #include <iostream>
 auto main () -> int {
-std::cout << "Hello World";
-std::cout << "Goodbye Coders School";
+std::cout << "Hello Coders School";
 }
+
